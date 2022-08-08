@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">edit_text_validator_lib</string>
+    <string name="msg_empty_edittext">Empty Field</string>
+    <string name="msg_invalid_edittext">Invalid Field</string>
+    <string name="msg_invalid_edittext_currency">Invalid amount, the min %1$s and the max %2$s amount range.</string>
+
+</resources>

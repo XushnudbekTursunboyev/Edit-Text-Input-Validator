@@ -2,6 +2,7 @@ package uz.orign.edittextvalidatorlib
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.EditText
 import uz.orign.edittextvalidatorlib.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

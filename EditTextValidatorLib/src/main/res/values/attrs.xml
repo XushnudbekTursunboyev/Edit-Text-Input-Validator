@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValidationEditText">
+        <attr name="format" format="enum">
+            <enum name="email"              value="0"/>
+            <enum name="password"           value="1"/>
+            <enum name="phone"              value="2"/>
+            <enum name="zipcode"            value="3"/>
+            <enum name="text"               value="4"/>
+            <enum name="number"             value="5"/>
+            <enum name="cellphone"          value="6"/>
+            <enum name="date"               value="7"/>
+            <enum name="personName"         value="8"/>
+            <enum name="numberCurrency"     value="9"/>
+            <enum name="curp"               value="10"/>
+            <enum name="numberCurrencyRounded" value="11"/>
+        </attr>
+        <attr name="autoValidate" format="boolean"/>
+        <attr name="showErrorMessage" format="boolean"/>
+        <attr name="errorEmptyMessage" format="string"/>
+        <attr name="errorMessage" format="string"/>
+        <attr name="regularExpression" format="string"/>
+        <attr name="minAmount" format="float"/>
+        <attr name="maxAmount" format="float"/>
+        <attr name="options" format="reference"/>
+        <attr name="drawableOptions" format="reference"/>
+    </declare-styleable>
+
+</resources>
