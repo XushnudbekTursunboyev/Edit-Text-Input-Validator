@@ -73,7 +73,7 @@ object ValidatorEditText {
          var pattern: Pattern? = null
          var matcher: Matcher? = null
 
-        val DATE_PATTERN = "(0?[1-9]|1[012]) [/.-] (0?[1-9]|[12][0-9]|3[01]) [/.-] ((19|20)\\d\\d)";
+        val DATE_PATTERN = "^(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\\d{2}$";
 
         pattern = Pattern.compile(DATE_PATTERN)
         matcher = pattern.matcher(date)
