@@ -39,12 +39,7 @@ object ValidatorEditText {
     }
 
     fun isPhoneNumberValid(phone:String):Boolean{
-
-        val r = Pattern.compile("^s*+(d{1,3})?[-. (]*(d{3})[-. )]*(d{3})[-. ]*(d{4})(?: *x(d+))?s*\$")
-
-        val m = r.matcher(phone.trim());
-
-        return m.find()
+        return android.util.Patterns.PHONE.matcher(phone).matches()
     }
 
     fun isIpAddressValid(ipAddress:String):Boolean{
